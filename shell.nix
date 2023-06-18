@@ -2,7 +2,7 @@
 
 pkgs.mkShell {
   packages = [ 
-    pkgs.pkgs.ruby_3_1 
+    pkgs.ruby_3_1 
     pkgs.rubyPackages.pry 
   ];
 } 
