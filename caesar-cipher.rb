@@ -5,7 +5,7 @@ def caesar_cipher(text, offset)
     max_int = 35
     offset_base = 9
     
-    if char == " " || char == "." || char == "," || char == "!" || char == "?"
+    if char == " " || char == "." || char == "," || char == "!" || char == "?" || char == "\'" || char == "\""
       char
     elsif char_int + offset > max_int
       if char.upcase == char
