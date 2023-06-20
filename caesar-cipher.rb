@@ -5,6 +5,7 @@ def caesar_cipher(text, offset)
     max_int = 35
     offset_base = 9
     
+    # TODO: Use regex instead of `or` statements to check for special characters
     if char == " " || char == "." || char == "," || char == "!" || char == "?" || char == "\'" || char == "\""
       char
     elsif char_int + offset > max_int
